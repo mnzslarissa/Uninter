@@ -1,4 +1,71 @@
-function mostrarMensagem() {
-  const mensagem = document.getElementById("mensagem");
-  mensagem.textContent = "Bem-vindo à minha página! Nunca desista dos seus sonhos!";
+body {
+  background-color: #f0f8ff; /* cor suave */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #2e8b57; /* cor diferente */
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+ul li {
+  margin-bottom: 12px; /* espaçamento entre os itens */
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff4500; /* muda de cor ao passar o mouse */
+  text-decoration: underline;
+}
+
+button {
+  margin: 20px 0;
+  padding: 10px 15px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #246b45;
+}
+#mensagem {
+  display: none;
+  font-weight: bold;
+  color: green;
+  margin-top: 10px;
 }
